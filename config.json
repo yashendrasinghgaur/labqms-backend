@@ -1,0 +1,13 @@
+{
+  "_comment": "Email settings for LabQMS. Fill in your Gmail details to enable email notifications.",
+  "_instructions": [
+    "1. Use your Gmail address as smtp_user",
+    "2. For smtp_pass: Go to Google Account → Security → 2-Step Verification → App Passwords",
+    "3. Create an App Password for 'Mail' and paste it below (16-character code without spaces)",
+    "4. Save this file and restart the server"
+  ],
+  "smtp_host": "smtp.gmail.com",
+  "smtp_port": 587,
+  "smtp_user": "your_email@gmail.com",
+  "smtp_pass": "your_16_char_app_password"
+}
